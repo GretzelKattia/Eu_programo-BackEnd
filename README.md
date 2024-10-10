@@ -6,7 +6,7 @@
 
 Bem-vindos ao meu repositório do curso "BACK-END | MINHA PRIMEIRA API" oferecido pelo Eu Programo! Estou fazendo esse curso da minha primeira API utilizando Node.js, com uma abordagem prática para me familiarizar ainda mais com o "trabalhos das sombras" tão essenciais para os dias atuais. E tudo isso acompanhado da maravilhosa instrutora Simara Conceição, que está pegando a minha mãozinha e me guiando por esse novo caminho repleto de coisas que desconheço, mas quero aprender!
 
-## *➖➖➖➖➖➖➖➖➖➖   Módulos do Curso   ➖➖➖➖➖➖➖➖➖➖*
+## *➖➖➖➖➖➖➖➖➖   Módulos do Curso   ➖➖➖➖➖➖➖➖➖*
 
 ## 🚂 Módulo 1: Todas a bordo! 
 Nesse primeiro módulo, tivemos uma introdução para que todas as participantes pudessem se conectar, fazer networking e assistir a vários vídeos inspiradores do TED. Esses vídeos destacaram a importância de não nos menosprezarmos e de superar aquela voz interior que diz: "Eu não sou ______ o suficiente."
@@ -88,8 +88,12 @@ O pensamento computacional é um conjunto de conceitos que pode nos ajudar a des
 
 #### ➡️ **Hashtag da semana:** #RodandoServidorLocalCheck  
 #### ➡️ **Módulo Check:** ✅
+
+## 🛰️ Módulo 5: Fazendo o Deploy
+
+#### ➡️ **Hashtag da semana:** #FazendoDeployCheck
+#### ➡️ **Módulo Check:** ✅
 <!-- 🗄️🖥🖧 
-## Módulo 5: Fazendo o Deploy
 
 ## Módulo 6: Conhecendo outros métodos HTTP
 
