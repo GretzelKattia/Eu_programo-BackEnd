@@ -1,34 +1,75 @@
-const express = require('express') 
+const express = require("express") 
 
 const router = express.Router()
 
 const app = express()
 
-
-
-const PORTA = 3333
+const porta = 3333
 
 
 
-function mostraHora(request, response) {
+const mulheres = [
 
- const data = new Date()
+ {
 
- const hora = data.toLocaleTimeString('pt-BR')
+   nome: 'Gretzel Penaloza',
 
- response.send(hora)
+   imagem: 'https://github.com/GretzelKattia.png',
+
+   minibio: 'Desenvolvedora Full Stack no @Itaú Unibanco',
+
+ },
+
+ {
+
+   nome: 'Letícia Almeida',
+
+   imagem: 'https://github.com/letialmeid.png',
+
+   minibio: 'Estagiária em Produtos no @Itaú Unibanco',
+
+ },
+
+ {
+
+   nome: 'Gabrielle Correa',
+
+   imagem: 'https://github.com/gabriellecorrea.png',
+
+   minibio: 'Estudante da @FIAP',
+
+ },
+
+ {
+
+    nome: 'Emilly Freitas',
+ 
+    imagem: 'https://github.com/EmillyMLFreitas.png',
+ 
+    minibio: 'Estudante da @UFABC',
+ 
+  }
+
+]
+
+
+
+function mostraMulheres(request, response) {
+
+response.json(mulheres)
 
 }
+
+
 
 function mostraPorta() {
 
-    console.log(`Servidor criado e rodando na porta ${PORTA}`)
+    console.log("Servidor criado e rodando na porta ", porta)
 
 }
 
 
 
-app.use(router.get('/hora', mostraHora))
+app.use(router.get('/mulheres', mostraMulheres))
 
-app.listen(PORTA, mostraPorta)
-
+app.listen(porta, mostraPorta)
